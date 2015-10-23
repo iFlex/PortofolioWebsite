@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Milorad Liviu Felix</title>
+
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="style/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="style/base.css" />
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="vendors/jquery.slimscroll.min.js"></script>
+
+	<script type="text/javascript" src="lib/jquery.fullPage.min.js"></script>
+	<script type="text/javascript" src="src/examples.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				menu: '#menu',
+				anchors: ['main','2015', '2014', '2013', '2012', '2011', '2010', '2009'],
+				sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C', '#1BBC9B', '#C63D0F', '#7E8F7C', '#1BBC9B', '#C63D0F', '#7E8F7C'],
+				autoScrolling: false
+			});
+		});
+	</script>
+
+</head>
+<body>
+
+<ul id="menu">
+	<li data-menuanchor="main" class="active"><a href="#main">me</a></li>
+  <li data-menuanchor="2015"><a href="#2015">2015</a></li>
+  <li data-menuanchor="2014"><a href="#2014">2014</a></li>
+	<li data-menuanchor="2013"><a href="#2013">2013</a></li>
+  <li data-menuanchor="2012"><a href="#2012">2012</a></li>
+  <li data-menuanchor="2011"><a href="#2011">2011</a></li>
+  <li data-menuanchor="2010"><a href="#2010">2010</a></li>
+  <li data-menuanchor="2009"><a href="#2009">2009</a></li>
+</ul>
+
+<div id="fullpage">
+	<div class="section " id="section0">
+		<div class="intro">
+			<h1>Milorad Liviu Felix</h1>
+			<p>Computing Science student at the University of Glasgow</p>
+			<br><br>
+			<p style="width:50%;font-size:18px;"><i>Engaged Computing Science student who believes that every piece of hardware and software should be beautiful and efficient by design</i></p>
+			<br><br>
+			<a href="http://github.com/iFlex" class="linkNicon"><img src="res/git.png" style="width:48px;height:48px"></img> My GitHub account  </a>
+			<a href="http://github.com/iFlex" class="linkNicon"><img src="res/briefcase.png" style="width:48px;height:48px"></img> My Résumé  </a>
+		</div>
+	</div>
+
+	<div class="section" id="section1">
+    <div class="intro">
+			<h1>Summer intern at JP Morgan Chase</h1>
+			<p>Solidified my knowledge of software enginnering principles and agile development</p>
+      <br>
+      <h1>NGPS</h1>
+			<p># JavaScript, HTML, CSS</p>
+			<p>* </p>
+			<p style="color:white;font-size:20px">Best AWS Hack award at JacobsHack Hackathon<p>
+		</div>
+	</div>
+
+  <div class="section" id="section2">
+		<div class="slide" id="slide1.1">
+			<h1>3rd Year University Team Project</h1>
+			<p>An Android application capable of recognising sample sounds and counting the number of occurences in a live sound stream from the device's microphone </p>
+			<p># Java, Android SDK</p>
+			<p>* </p>
+			<br>
+      <h1>Web Skills IS3 project</h1>
+			<p>A web based series plotting tool that facilitates finding correlations between parameters</p>
+			<p># JavaScript, HTML, CSS</p>
+			<p>* </p>
+		</div>
+
+		<div class="slide" id="slide1.2">
+			<h1>Counter++</h1>
+			<br>
+			<p style="padding-left:10%;padding-right:10%"> An android application that allows the user to create model sounds that will be used to count how many times they were heard during a live recording </p>
+			<br>
+			<img src="counterpp.png"></img><img src="counterpp.png"></img><img src="counterpp.png"></img>
+		</div>
+
+		<div class="slide" id="slide1.2">
+			<h1> Scotland Refferendum Data Analitycs Tool </h1>
+			<p> A tool that allows the user to find correlations
+			<img class="img4" src="res/IS3/1.png"></img>
+			<img class="img4" src="res/IS3/2.png"></img>
+			<img class="img4" src="res/IS3/3.png"></img>
+			<img class="img4" src="res/IS3/4.png"></img>
+			<img class="img4" src="res/IS3/5.png"></img>
+		</div>
+	</div>
+
+  <div class="section" id="section3">
+		<div class="intro">
+			<h1>Astero Jump</h1>
+			<p>A physics based space explorer iOS and Android game.</p>
+			<p># Lua Script, Corona SDK</p>
+			<p>* </p>
+      <br>
+      <h1>CoClip</h1>
+      <p>Command Line Application for sharing files with users on the same LAN. Capable to detect active users on LAN and stream files at speeds of up to 10 MB/s (Speed limitation due to synchronous I/O)</p>
+			<p># C/C++</p>
+			<p>* </p>
+    </div>
+	</div>
+
+  <div class="section" id="section4">
+		<div class="intro">
+      <h1>AngryHen</h1>
+			<p>A 10 level iOS game where the player has to keep an increasing number of eggs from colliding with each other</p>
+			<p># Action Script 3, Adobe Flash</p>
+			<p>* </p>
+      <br>
+      <h1>GalacticKidnappers</h1>
+			<p> A survival based iOS game where the player needs to tap on eggs to save them from being abducted</p>
+			<p># Action Script 3, Adobe Flash</p>
+			<p>* </p>
+		</div>
+	</div>
+
+  <div class="section" id="section5">
+		<div class="intro">
+			<h1>Multiple International Robotics Competition Awards</h1>
+			<p>2nd Place, Robot Challenge Vienna 2011, Line follower robot</p>
+			<p>Grand Winner Medal, Informatrix Projects Competition, Bucharest. Project: Universal Self Balancing Platform</p>
+			<p>Grand Winner Medal, Informatrix Projects Competition, Bucharest. Project: Autonomous Mini-Sumo Robot</p>
+			<p>Orsova</p>
+			<p>E-Biko</p>
+			<p>Product of The Year award at Junior Achievement, National Phase. Project: Clock Works - vintage clocks made out of vinyl disks with heat induced deformations</p>
+		</div>
+	</div>
+
+  <div class="section" id="section6">
+		<div class="intro">
+			<h1>Started Robotics</h1>
+			<p>autoScrolling:false</p>
+		</div>
+	</div>
+
+  <div class="section" id="section7">
+    <h1>NASA Fundamental Aeronautics Competition </h1>
+		<p style="padding-left:15%;padding-right:15%">The task was to create a proposal for the supersonic commercial airplane of the future and come up with solutions for the following issues:</p>
+		<div>
+			<div style = "width:350px;height:auto;margin:0 auto;padding:1px">
+				<p style="text-align:left">Shorter required runway</p>
+				<p style="text-align:left">Acceptable noise level</p>
+				<p style="text-align:left">Eco-Friendly</p>
+			</div>
+		</div>
+		<a href="http://www.aeronautics.nasa.gov/competition_winners.htm" class="linkNicon" style="font-size:20px"><i>1st place in the international teams section - click to see NASA competition page</i></a>
+		<p></p>
+	</div>
+</div>
+</body>
+
+<script>
+function moveSlideRight(){
+	$.fn.fullpage.moveSlideRight();
+}
+function moveSlideLeft(){
+	$.fn.fullpage.moveSlideLeft();
+}
+</script>
+
+</html>
