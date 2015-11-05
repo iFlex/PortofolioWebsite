@@ -1,0 +1,39 @@
+.item{
+  width:100%;
+}
+
+.intro p{
+	width: 95%;
+	margin: 0 auto;
+	font-size: 1.5em;
+}
+
+.text-center{
+	text-align:center;
+}
+
+.introPadding{
+  padding-top:20px;
+  padding-bottom:15px;
+  padding-left:2%;
+}
+
+.sectionPadding{
+  padding-top:5px;
+  padding-bottom:5px;
+}
+
+.deeperContext{
+    width:100%;
+    height:auto;
+}
+
+.fitHeight{
+    height:100%;
+    width: auto;
+}
+
+.fitWidth{
+  width:100%;
+  height:auto
+}

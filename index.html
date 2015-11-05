@@ -22,6 +22,7 @@
 
 	<script type="text/javascript" src="lib/jquery.fullPage.min.js"></script>
 	<script type="text/javascript" src="src/examples.js"></script>
+	<script type="text/javascript" src="src/populator.js"></script>
 
 	<script type="text/javascript">
 		$(document).ready(function() {
@@ -31,6 +32,7 @@
 				sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C', '#1BBC9B', '#C63D0F', '#7E8F7C', '#1BBC9B', '#C63D0F', '#7E8F7C'],
 				autoScrolling: false
 			});
+			populate(achievements);
 		});
 	</script>
 
@@ -57,26 +59,19 @@
 			<p style="width:50%;font-size:18px;"><i>Engaged Computing Science student who believes that every piece of hardware and software should be beautiful and efficient by design</i></p>
 			<br><br>
 			<a href="http://github.com/iFlex" class="linkNicon"><img src="res/git.png" style="width:48px;height:48px"></img> My GitHub account  </a>
-			<a href="http://github.com/iFlex" class="linkNicon"><img src="res/briefcase.png" style="width:48px;height:48px"></img> My Résumé  </a>
+			<a href="http://github.com/iFlex" class="linkNicon"><img src="res/briefcase.png" style="width:48px;height:48px"></img> My CV  </a>
 		</div>
 	</div>
 
 	<div class="section" id="section1">
-    <div class="intro">
-			<h1>Summer intern at JP Morgan Chase</h1>
-			<p>Solidified my knowledge of software enginnering principles and agile development</p>
-      <br>
-      <h1>NGPS</h1>
-			<p># JavaScript, HTML, CSS</p>
-			<p>* </p>
-			<p style="color:white;font-size:20px">Best AWS Hack award at JacobsHack Hackathon<p>
+    <div class="intro" id="_2015">
 		</div>
 	</div>
 
   <div class="section" id="section2">
 		<div class="slide" id="slide1.1">
 			<h1>3rd Year University Team Project</h1>
-			<p>An Android application capable of recognising sample sounds and counting the number of occurences in a live sound stream from the device's microphone </p>
+			<p class="description">An Android application capable of recognising sample sounds and counting the number of occurences in a live sound stream from the device's microphone </p>
 			<p># Java, Android SDK</p>
 			<p>* </p>
 			<br>
@@ -125,7 +120,9 @@
 			<p>A 10 level iOS game where the player has to keep an increasing number of eggs from colliding with each other</p>
 			<p># Action Script 3, Adobe Flash</p>
 			<p>* </p>
-      <br>
+			<br>
+			<!--><p>Silver Medal, 10th International Infomatrix Project Competition, Bucharest</p><!-->
+			<br>
       <h1>GalacticKidnappers</h1>
 			<p> A survival based iOS game where the player needs to tap on eggs to save them from being abducted</p>
 			<p># Action Script 3, Adobe Flash</p>
@@ -135,13 +132,15 @@
 
   <div class="section" id="section5">
 		<div class="intro">
-			<h1>Multiple International Robotics Competition Awards</h1>
-			<p>2nd Place, Robot Challenge Vienna 2011, Line follower robot</p>
-			<p>Grand Winner Medal, Informatrix Projects Competition, Bucharest. Project: Universal Self Balancing Platform</p>
-			<p>Grand Winner Medal, Informatrix Projects Competition, Bucharest. Project: Autonomous Mini-Sumo Robot</p>
-			<p>Orsova</p>
-			<p>E-Biko</p>
-			<p>Product of The Year award at Junior Achievement, National Phase. Project: Clock Works - vintage clocks made out of vinyl disks with heat induced deformations</p>
+			<h1>Multiple International Competition Awards</h1>
+			<div style = "width:90%;height:auto;margin:0 auto;padding:1px">
+				<p style="text-align:left">2nd Place, Line Follower Robot at Robot Challenge, Vienna, Austria</p>
+				<p style="text-align:left">Grand Winner Medal, 9th International Informatrix Projects Competition, Bucharest, Romania. Project: Universal Self Balancing Platform</p>
+				<p style="text-align:left">Grand Winner Medal, 9th International Informatrix Projects Competition, Bucharest, Romania. Project: Autonomous Mini-Sumo Robot</p>
+				<p style="text-align:left">1st Place at Senior Line Follower Contest, International Robotics Trophy Robotor, Orsova, Romania</p>
+				<p style="text-align:left">3rd Prize at 7th International ICT Olympiad, Ankara, Turkey. Project: Collection of Flash Educational Games</p>
+				<p style="text-align:left">Product of The Year award at Junior Achievement, National Phase Buchares, Romania. Project: Clock Works - vintage clocks made out of vinyl disks with heat induced deformations</p>
+			</div>
 		</div>
 	</div>
 
@@ -153,7 +152,7 @@
 	</div>
 
   <div class="section" id="section7">
-    <h1>NASA Fundamental Aeronautics Competition </h1>
+    <h1>NASA Fundamental Aeronautics Program Student Contest</h1>
 		<p style="padding-left:15%;padding-right:15%">The task was to create a proposal for the supersonic commercial airplane of the future and come up with solutions for the following issues:</p>
 		<div>
 			<div style = "width:350px;height:auto;margin:0 auto;padding:1px">
@@ -162,7 +161,7 @@
 				<p style="text-align:left">Eco-Friendly</p>
 			</div>
 		</div>
-		<a href="http://www.aeronautics.nasa.gov/competition_winners.htm" class="linkNicon" style="font-size:20px"><i>1st place in the international teams section - click to see NASA competition page</i></a>
+		<a href="http://www.aeronautics.nasa.gov/competition_winners.htm" class="linkNicon" style="font-size:20px"><i>1st place, international teams section - click to see NASA competition page</i></a>
 		<p></p>
 	</div>
 </div>
