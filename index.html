@@ -29,9 +29,9 @@
 
   owl.owlCarousel({
       items : 5, //10 items above 1000px browser width
-      itemsDesktop : [1000,2], //5 items between 1000px and 901px
+      itemsDesktop : [1000,4], //5 items between 1000px and 901px
       itemsDesktopSmall : [900,2], // betweem 900px and 601px
-      itemsTablet: [600,2], //2 items between 600 and 0
+      itemsTablet: [600,1], //2 items between 600 and 0
       itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
   });
 
@@ -55,13 +55,13 @@
 </script>
 <head>
 <body>
-<div id="y0" class="item text-center introPadding">
+<div id="y0" class="item text-center introPadding" style="background-image:url('./res/bkg.jpg');background-size:cover">
 	<div class="intro">
 		<h1>Milorad Liviu Felix</h1>
 		<p>Computing Science student at the University of Glasgow</p>
-		<br><br>
+		<br>
 		<p style="width:50%;font-size:18px;"><i>Engaged Computing Science student who believes that every piece of hardware and software should be beautiful and efficient by design</i></p>
-		<br><br>
+		<br>
 		<a href="http://github.com/iFlex" class="linkNicon">
 			<img src="res/git.png" style="width:48px;height:48px"></img>
 			 My GitHub account
@@ -71,7 +71,6 @@
 			 My CV
 		</a>
 	</div>
-	<br>
 </div>
 
 <div id="owl-demo" class="owl-carousel owl-theme">
