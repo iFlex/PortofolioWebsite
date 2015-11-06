@@ -1,9 +1,9 @@
 var objects = {
 "_1":{year:2015},
-"_2":{year:2015,skills:"JavaScript, HTML, CSS"},
+"_2":{year:2015,skills:"JavaScript, HTML, CSS",cover:"res/ngps.png"},
 "_3":{year:2015,skills:"Swift, NodeJS, JavaScript"},
 "_4":{year:2014,skills:"Java, Android SDK"},
-"_5":{year:2013,skills:"Lua Script, Corona SDK"},
+"_5":{year:2013,skills:"Lua Script, Corona SDK",cover:"res/asterojmp.png"},
 "_6":{year:2013,skills:"C/C++"},
 "lctb":{year:2012,skills:"Action Script 3, Adobe Flash",cover:"res/lcbss.png"},
 "_8":{year:2012,skills:"Action Script 3, Adobe Flash",cover:"res/angryHen.png",color:"#CCCCCC"},
