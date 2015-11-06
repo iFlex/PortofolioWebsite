@@ -1,0 +1,269 @@
+#plotModeHolder{
+	width:100%;
+	height:90%;
+	position:absolute;
+	z-index:5;
+	top:64px;
+	left:0px;
+}
+
+#mapHolder{
+	width:100%;
+	height:100%;
+	position:absolute;
+	z-index:5;
+	top:0px;
+	left:0px;
+}
+
+.vertical_align{
+	margin-top:7px;
+}
+
+.selected{
+	border-style: solid;
+    border-width: 5px;
+}
+.unselected{
+	border-style: solid;
+    border-width: 0px;
+}
+
+.visualisation{
+	width:95%;
+	height:90%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:20px;
+	background:transparent;
+}
+
+.deleteButton {
+  margin-left: 2.5%;
+  border: none;
+  background: transparent;
+
+  width: 32px;
+  height: 32px;
+
+  border-radius: 50%;
+}
+
+
+.selectButton {
+  margin-left: 2.5%;
+
+  border: none;
+  background: transparent;
+
+  width: 32px;
+  height: 32px;
+
+  border-radius: 50%;
+}
+
+
+.overlappingContainer{
+	width:100%;
+	height:100%;
+	z-index:100;
+	position:fixed;
+	top:0px;
+	bottom:0px;
+	padding-top:70px;
+	pointer-events:none;
+}
+
+
+
+/* barchart */
+.axis text {
+	font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+	fill: none;
+	stroke: #000;
+	shape-rendering: crispEdges;
+}
+
+.bar {
+	fill: steelblue;
+	fill-opacity: .9;
+}
+
+.bar:hover {
+	fill: orangered;
+	fill-opacity: 1;
+}
+
+
+.d3-tip {
+	line-height: 1;
+	font-weight: bold;
+	padding: 12px;
+	background: rgba(0, 0, 0, 0.8);
+	color: #fff;
+	border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+	box-sizing: border-box;
+	display: inline;
+	font-size: 10px;
+	width: 100%;
+	line-height: 1;
+	color: rgba(0, 0, 0, 0.8);
+	content: "\25BC";
+	position: absolute;
+	text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+	margin: -1px 0 0 0;
+	top: 100%;
+	left: 0;
+}
+
+
+label {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+
+.dot {
+	stroke: #000;
+}
+
+.d3-tip {
+	line-height: 1;
+	font-weight: bold;
+	padding: 12px;
+	background: rgba(0, 0, 0, 0.8);
+	color: #fff;
+	border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+	box-sizing: border-box;
+	display: inline;
+	font-size: 10px;
+	width: 100%;
+	line-height: 1;
+	color: rgba(0, 0, 0, 0.8);
+	content: "\25BC";
+	position: absolute;
+	text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+	margin: -1px 0 0 0;
+	top: 100%;
+	left: 0;
+}
+/* Zivile's table style */
+
+.CSSTableGenerator {
+	margin:0px;padding:0px;
+	width:100%;
+	box-shadow: 10px 10px 5px #888888;
+	border:1px solid #383b89;
+	
+	-moz-border-radius-bottomleft:25px;
+	-webkit-border-bottom-left-radius:25px;
+	border-bottom-left-radius:25px;
+	
+	-moz-border-radius-bottomright:25px;
+	-webkit-border-bottom-right-radius:25px;
+	border-bottom-right-radius:25px;
+	
+	-moz-border-radius-topright:25px;
+	-webkit-border-top-right-radius:25px;
+	border-top-right-radius:25px;
+	
+	-moz-border-radius-topleft:25px;
+	-webkit-border-top-left-radius:25px;
+	border-top-left-radius:25px;
+}.CSSTableGenerator table{
+    border-collapse: collapse;
+        border-spacing: 0;
+	width:100%;
+	height:100%;
+	margin:0px;padding:0px;
+}.CSSTableGenerator tr:last-child td:last-child {
+	-moz-border-radius-bottomright:25px;
+	-webkit-border-bottom-right-radius:25px;
+	border-bottom-right-radius:25px;
+}
+.CSSTableGenerator table tr:first-child td:first-child {
+	-moz-border-radius-topleft:25px;
+	-webkit-border-top-left-radius:25px;
+	border-top-left-radius:25px;
+}
+.CSSTableGenerator table tr:first-child td:last-child {
+	-moz-border-radius-topright:25px;
+	-webkit-border-top-right-radius:25px;
+	border-top-right-radius:25px;
+}.CSSTableGenerator tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:25px;
+	-webkit-border-bottom-left-radius:25px;
+	border-bottom-left-radius:25px;
+}.CSSTableGenerator tr:hover td{
+	background-color:#586aa3;
+		
+
+}
+.CSSTableGenerator td{
+	vertical-align:middle;
+	
+	background-color:#09264c;
+
+	border:1px solid #383b89;
+	border-width:0px 1px 1px 0px;
+	text-align:center;
+	padding:13px;
+	font-size:10px;
+	font-family:Arial;
+	font-weight:normal;
+	color:#FFFFFF;
+}.CSSTableGenerator tr:last-child td{
+	border-width:0px 1px 0px 0px;
+}.CSSTableGenerator tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}.CSSTableGenerator tr:last-child td:last-child{
+	border-width:0px 0px 0px 0px;
+}
+.CSSTableGenerator tr:first-child td{
+		background:-o-linear-gradient(bottom, #030d19 5%, #09264c 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #030d19), color-stop(1, #09264c) );
+	background:-moz-linear-gradient( center top, #030d19 5%, #09264c 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#030d19", endColorstr="#09264c");	background: -o-linear-gradient(top,#030d19,09264c);
+
+	background-color:#030d19;
+	border:0px solid #383b89;
+	text-align:center;
+	border-width:0px 0px 1px 1px;
+	font-size:14px;
+	font-family:Arial;
+	font-weight:bold;
+	color:#CDB81B;
+}
+.CSSTableGenerator tr:first-child:hover td{
+	background:-o-linear-gradient(bottom, #030d19 5%, #09264c 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #030d19), color-stop(1, #09264c) );
+	background:-moz-linear-gradient( center top, #030d19 5%, #09264c 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#030d19", endColorstr="#09264c");	background: -o-linear-gradient(top,#030d19,09264c);
+
+	background-color:#030d19;
+}
+.CSSTableGenerator tr:first-child td:first-child{
+	border-width:0px 0px 1px 0px;
+}
+.CSSTableGenerator tr:first-child td:last-child{
+	border-width:0px 0px 1px 1px;
+}

@@ -1,39 +1,103 @@
-.item{
-  width:100%;
+h1,i,a,p { color: white; }
+
+body{
+	background-image:url('res/cardboard.png');
+	background-color: #0f0700;
 }
 
-.intro p{
+/*.item{
+	-webkit-box-shadow: 0px 23px 30px -15px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 23px 30px -15px rgba(0,0,0,0.75);
+box-shadow: 0px 23px 30px -15px rgba(0,0,0,0.75);
+}*/
+
+.intro p {
 	width: 95%;
 	margin: 0 auto;
 	font-size: 1.5em;
 }
 
-.text-center{
+.text-center {
 	text-align:center;
 }
 
-.introPadding{
+.introPadding {
   padding-top:20px;
   padding-bottom:15px;
   padding-left:2%;
 }
 
-.sectionPadding{
+.sectionPadding {
   padding-top:5px;
   padding-bottom:5px;
 }
 
-.deeperContext{
-    width:100%;
-    height:auto;
+.deeperContext {
+  width:100%;
+  height:auto;
 }
 
-.fitHeight{
-    height:100%;
-    width: auto;
+.fitHeight {
+  height:100%;
+  width: auto;
 }
 
-.fitWidth{
+.fitWidth {
   width:100%;
   height:auto
+}
+
+.yearHead {
+  padding-left:5px;
+  background:rgba(0,0,0,0.5);
+}
+
+#owl-demo .item{
+  background: #3fbf79;
+  padding: 30px 0px;
+  margin: 10px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+}
+.customNavigation{
+  text-align: center;
+}
+//use styles below to disable ugly selection
+.customNavigation a{
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+hr {
+  border-top: dotted 1px;
+}
+
+#y0{
+  background-color: #376cf1;
+}
+#y2015{
+  background-color: #376cf1;
+}
+#y2014{
+  background-color: #376cf1;
+}
+#y2013{
+  background-color: #376cf1;
+}
+#y2012{
+  background-color: #376cf1;
+}
+#y2010{
+  background-color: #376cf1;
+}
+#y2009{
+  background-color: #376cf1;
 }

@@ -11,169 +11,228 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style/style.css" />
 
-	<link rel="stylesheet" type="text/css" href="style/jquery.fullPage.css" />
-	<link rel="stylesheet" type="text/css" href="style/base.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<link href="style/custom.css" rel="stylesheet">
 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-
-	<script type="text/javascript" src="vendors/jquery.slimscroll.min.js"></script>
-
-	<script type="text/javascript" src="lib/jquery.fullPage.min.js"></script>
-	<script type="text/javascript" src="src/examples.js"></script>
-	<script type="text/javascript" src="src/populator.js"></script>
-
-	<script type="text/javascript">
-		$(document).ready(function() {
-			$('#fullpage').fullpage({
-				menu: '#menu',
-				anchors: ['main','2015', '2014', '2013', '2012', '2011', '2010', '2009'],
-				sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C', '#1BBC9B', '#C63D0F', '#7E8F7C', '#1BBC9B', '#C63D0F', '#7E8F7C'],
-				autoScrolling: false
-			});
-			populate(achievements);
-		});
-	</script>
-
-</head>
-<body>
-
-<ul id="menu">
-	<li data-menuanchor="main" class="active"><a href="#main">me</a></li>
-  <li data-menuanchor="2015"><a href="#2015">2015</a></li>
-  <li data-menuanchor="2014"><a href="#2014">2014</a></li>
-	<li data-menuanchor="2013"><a href="#2013">2013</a></li>
-  <li data-menuanchor="2012"><a href="#2012">2012</a></li>
-  <li data-menuanchor="2011"><a href="#2011">2011</a></li>
-  <li data-menuanchor="2010"><a href="#2010">2010</a></li>
-  <li data-menuanchor="2009"><a href="#2009">2009</a></li>
-</ul>
-
-<div id="fullpage">
-	<div class="section " id="section0">
-		<div class="intro">
-			<h1>Milorad Liviu Felix</h1>
-			<p>Computing Science student at the University of Glasgow</p>
-			<br><br>
-			<p style="width:50%;font-size:18px;"><i>Engaged Computing Science student who believes that every piece of hardware and software should be beautiful and efficient by design</i></p>
-			<br><br>
-			<a href="http://github.com/iFlex" class="linkNicon"><img src="res/git.png" style="width:48px;height:48px"></img> My GitHub account  </a>
-			<a href="http://github.com/iFlex" class="linkNicon"><img src="res/briefcase.png" style="width:48px;height:48px"></img> My CV  </a>
-		</div>
-	</div>
-
-	<div class="section" id="section1">
-    <div class="intro" id="_2015">
-		</div>
-	</div>
-
-  <div class="section" id="section2">
-		<div class="slide" id="slide1.1">
-			<h1>3rd Year University Team Project</h1>
-			<p class="description">An Android application capable of recognising sample sounds and counting the number of occurences in a live sound stream from the device's microphone </p>
-			<p># Java, Android SDK</p>
-			<p>* </p>
-			<br>
-      <h1>Web Skills IS3 project</h1>
-			<p>A web based series plotting tool that facilitates finding correlations between parameters</p>
-			<p># JavaScript, HTML, CSS</p>
-			<p>* </p>
-		</div>
-
-		<div class="slide" id="slide1.2">
-			<h1>Counter++</h1>
-			<br>
-			<p style="padding-left:10%;padding-right:10%"> An android application that allows the user to create model sounds that will be used to count how many times they were heard during a live recording </p>
-			<br>
-			<img src="counterpp.png"></img><img src="counterpp.png"></img><img src="counterpp.png"></img>
-		</div>
-
-		<div class="slide" id="slide1.2">
-			<h1> Scotland Refferendum Data Analitycs Tool </h1>
-			<p> A tool that allows the user to find correlations
-			<img class="img4" src="res/IS3/1.png"></img>
-			<img class="img4" src="res/IS3/2.png"></img>
-			<img class="img4" src="res/IS3/3.png"></img>
-			<img class="img4" src="res/IS3/4.png"></img>
-			<img class="img4" src="res/IS3/5.png"></img>
-		</div>
-	</div>
-
-  <div class="section" id="section3">
-		<div class="intro">
-			<h1>Astero Jump</h1>
-			<p>A physics based space explorer iOS and Android game.</p>
-			<p># Lua Script, Corona SDK</p>
-			<p>* </p>
-      <br>
-      <h1>CoClip</h1>
-      <p>Command Line Application for sharing files with users on the same LAN. Capable to detect active users on LAN and stream files at speeds of up to 10 MB/s (Speed limitation due to synchronous I/O)</p>
-			<p># C/C++</p>
-			<p>* </p>
-    </div>
-	</div>
-
-  <div class="section" id="section4">
-		<div class="intro">
-      <h1>AngryHen</h1>
-			<p>A 10 level iOS game where the player has to keep an increasing number of eggs from colliding with each other</p>
-			<p># Action Script 3, Adobe Flash</p>
-			<p>* </p>
-			<br>
-			<!--><p>Silver Medal, 10th International Infomatrix Project Competition, Bucharest</p><!-->
-			<br>
-      <h1>GalacticKidnappers</h1>
-			<p> A survival based iOS game where the player needs to tap on eggs to save them from being abducted</p>
-			<p># Action Script 3, Adobe Flash</p>
-			<p>* </p>
-		</div>
-	</div>
-
-  <div class="section" id="section5">
-		<div class="intro">
-			<h1>Multiple International Competition Awards</h1>
-			<div style = "width:90%;height:auto;margin:0 auto;padding:1px">
-				<p style="text-align:left">2nd Place, Line Follower Robot at Robot Challenge, Vienna, Austria</p>
-				<p style="text-align:left">Grand Winner Medal, 9th International Informatrix Projects Competition, Bucharest, Romania. Project: Universal Self Balancing Platform</p>
-				<p style="text-align:left">Grand Winner Medal, 9th International Informatrix Projects Competition, Bucharest, Romania. Project: Autonomous Mini-Sumo Robot</p>
-				<p style="text-align:left">1st Place at Senior Line Follower Contest, International Robotics Trophy Robotor, Orsova, Romania</p>
-				<p style="text-align:left">3rd Prize at 7th International ICT Olympiad, Ankara, Turkey. Project: Collection of Flash Educational Games</p>
-				<p style="text-align:left">Product of The Year award at Junior Achievement, National Phase Buchares, Romania. Project: Clock Works - vintage clocks made out of vinyl disks with heat induced deformations</p>
-			</div>
-		</div>
-	</div>
-
-  <div class="section" id="section6">
-		<div class="intro">
-			<h1>Started Robotics</h1>
-			<p>autoScrolling:false</p>
-		</div>
-	</div>
-
-  <div class="section" id="section7">
-    <h1>NASA Fundamental Aeronautics Program Student Contest</h1>
-		<p style="padding-left:15%;padding-right:15%">The task was to create a proposal for the supersonic commercial airplane of the future and come up with solutions for the following issues:</p>
-		<div>
-			<div style = "width:350px;height:auto;margin:0 auto;padding:1px">
-				<p style="text-align:left">Shorter required runway</p>
-				<p style="text-align:left">Acceptable noise level</p>
-				<p style="text-align:left">Eco-Friendly</p>
-			</div>
-		</div>
-		<a href="http://www.aeronautics.nasa.gov/competition_winners.htm" class="linkNicon" style="font-size:20px"><i>1st place, international teams section - click to see NASA competition page</i></a>
-		<p></p>
-	</div>
-</div>
-</body>
+<!-- Owl Carousel Assets -->
+<link href="owl-carousel/owl.carousel.css" rel="stylesheet">
+<link href="owl-carousel/owl.theme.css" rel="stylesheet">
+<link href="owl-carousel/owl.transitions.css" rel="stylesheet">
+<script src="owl-carousel/owl.carousel.js"></script>
 
 <script>
-function moveSlideRight(){
-	$.fn.fullpage.moveSlideRight();
-}
-function moveSlideLeft(){
-	$.fn.fullpage.moveSlideLeft();
+	window.onready = function(){
+	//addYearHeaders();
+	var owl = $("#owl-demo");
+
+  owl.owlCarousel({
+      items : 5, //10 items above 1000px browser width
+      itemsDesktop : [1000,2], //5 items between 1000px and 901px
+      itemsDesktopSmall : [900,2], // betweem 900px and 601px
+      itemsTablet: [600,2], //2 items between 600 and 0
+      itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
+  });
+
+  // Custom Navigation Events
+  $(".next").click(function(){
+    owl.trigger('owl.next');
+  })
+  $(".prev").click(function(){
+    owl.trigger('owl.prev');
+  })
+  $(".play").click(function(){
+    owl.trigger('owl.play',1000); //owl.play event accept autoPlay speed as second parameter
+  })
+  $(".stop").click(function(){
+    owl.trigger('owl.stop');
+  })
+
+
+	var objects = {
+	"_1":{year:2015},
+	"_2":{year:2015,skills:"JavaScript, HTML, CSS"},
+	"_3":{year:2015,skills:"Swift, NodeJS, JavaScript"},
+	"_4":{year:2014,skills:"Java, Android SDK"},
+	"_5":{year:2013,skills:"Lua Script, Corona SDK"},
+	"_6":{year:2013,skills:"C/C++"},
+	"lctb":{year:2012,skills:"Action Script 3, Adobe Flash",cover:"res/lctbss.png",color:"#000000"},
+	"_8":{year:2012,skills:"Action Script 3, Adobe Flash",cover:"res/angryHen.png",color:"#CCCCCC"},
+	"_9":{year:2012,skills:"Action Script 3, Adobe Flash",cover:"res/galactic.jpg",color:"#000000"},
+	"_10":{year:2011,skills:"C, VisualBasic, Arduino"},
+	"_11":{year:2011,skills:"C, Arduino",cover:"res/sumo.png"},
+	"_12":{year:2011,skills:"C, Arduino"},
+	"_13":{year:2009,cover:"res/jet2.jpg"}
+	};
+	function init(){
+		var header = document.getElementById("y0");
+		var height = ($(window).height() - header.clientHeight)*0.9;
+		for( key in objects){
+			try {
+				var year = document.createElement("div");
+				year.innerHTML = "<p>"+objects[key].year+"<p>";
+				year.className = "text-center";
+				year.style.width = "100%";
+				year.style.height = "auto";
+				year.style.position = "absolute";
+				year.style.top = "0px";
+				year.style.left = "0px";
+				year.style.paddingTop = "7px"
+				year.style.background = "rgba(0,0,0,0.25)";
+
+				obj = document.getElementById(key);
+				obj.style.overflowX = "hiddne";
+				obj.style.overflowY = "scroll";
+				obj.style.position = "relative";
+				obj.insertBefore(year,obj.childNodes[0]);
+
+				if(objects[key].cover) {
+					obj.style.background = "url('"+objects[key].cover+"')";
+					obj.style.backgroundSize = "cover";
+				}
+
+				if(objects[key].skills){
+					var skill = document.createElement("div");
+					skill.innerHTML = '<img src="res/code.png" style="width:25px;height:25px"></img>  '+objects[key].skills;
+					skill.className = "text-center";
+					skill.style.width = "100%";
+					skill.style.height = "auto";
+					skill.style.position = "absolute";
+					skill.style.bottom = "0px";
+					skill.style.left = "0px";
+					skill.style.paddingBottom = "4px";
+
+					obj.appendChild(skill);
+				}
+			} catch(e){
+				console.log("Could not customize:");
+				console.log(objects[i]);
+			}
+		}
+	}
+	function setHeight(){
+		var header = document.getElementById("y0");
+		var height = ($(window).height() - header.clientHeight)*0.8;
+		for( key in objects){
+			try {
+				obj = document.getElementById(key);
+				obj.style.height = height+"px";
+			} catch(e){
+				console.log("Could not customize:");
+				console.log(objects[i]);
+			}
+		}
+	}
+
+	init();
+	setHeight();
 }
 </script>
+<head>
+<body>
+<div id="y0" class="item text-center introPadding">
+	<div class="intro">
+		<h1>Milorad Liviu Felix</h1>
+		<p>Computing Science student at the University of Glasgow</p>
+		<br><br>
+		<p style="width:50%;font-size:18px;"><i>Engaged Computing Science student who believes that every piece of hardware and software should be beautiful and efficient by design</i></p>
+		<br><br>
+		<a href="http://github.com/iFlex" class="linkNicon">
+			<img src="res/git.png" style="width:48px;height:48px"></img>
+			 My GitHub account
+		</a>
+		<a href="http://github.com/iFlex" class="linkNicon">
+			<img src="res/briefcase.png" style="width:48px;height:48px"></img>
+			 My CV
+		</a>
+	</div>
+	<br>
+</div>
 
+<div id="owl-demo" class="owl-carousel owl-theme">
+  <div class="item" id="_1"><h1>Summer Intern at JP Morgan</h1></div>
+  <div class="item" id="_2"><h1 class="title">NGPS</h1>
+	<p  class="description">A pure javascript presentation platform that relies on spatial mapping to convey ideas.</p>
+	<br><br>
+	<i  class="introPadding">
+		<a href="http://github.com/iFlex/ngps" class="linkNicon">
+			<img src="res/git.png" style="width:28px;height:28px"></img>
+		</a>
+		<a href="./subsites/NGPS/index.html" class="linkNicon">
+			<img src="res/demo.png" style="width:32px;height:32px"> demo</img>
+		</a>
+	</i></div>
+  <div class="item" id="_3"><img src="res/jacobshk.png" style="height:64px;width:auto"></img><h1 class="title">Best AWS Hack award at JacobsHack Hackathon</h1></div>
+  <div class="item" id="_4"><h1 class="title">Android Sound Pattern Counter</h1>
+	<p  class="description">My 3rd Year University Team Project was an application capable of recognising sample sounds and counting the number of occurences in a live sound stream from the device's microphone </p>
+	<i class="introPadding">
+		<a href="http://github.com/iFlex/Counter++" class="linkNicon">
+			<img src="res/git.png" style="width:28px;height:28px"></img>
+		</a>
+	</i>
+	</div>
+  <div class="item" id="_5"><h1 class="title">Astero Jump</h1>
+		<p  class="description">A physics based space explorer iOS and Android game.</p>
+	</div>
+  <div class="item" id="_6"><h1 class="title">CoClip</h1>
+	<p  class="description">Command Line Application for sharing files with users on the same LAN. Capable to detect active users on LAN and stream files at speeds of up to 10 MB/s (Speed limitation due to synchronous I/O)</p>
+	<br>
+	<i class="introPadding">
+		<a href="http://github.com/iFlex/CoClip" class="linkNicon">
+			<img src="res/git.png" style="width:28px;height:28px"> see on git</img>
+		</a>
+	</i></div>
+  <div class="item" id="lctb"><h1 class="title">Logic Circuit Testing Board</h1>
+	<p  class="description">A logic gates simulator made in Action Script for web embedding</p>
+	<br>
+	<i class="introPadding">
+		<a href="./subsites/logic_circuit_testing_board/LogicCircuitTestBoard.html" class="linkNicon">
+			<img src="res/demo.png" style="width:32px;height:32px"> demo</img>
+		</a>
+	</i></div>
+
+	<div class="item" id="_8"><h1>Angry Hen</h1>
+		<p  class="description">A 10 level iOS game where the player has to keep an increasing number of eggs from colliding with each other</p>
+	</div>
+
+	<div class="item" id="_9"><h1 class="title">Galactic Kidnappers</h1>
+		<p  class="description"> A survival based iOS game where the player needs to tap on eggs to save them from being abducted</p>
+	</div>
+
+	<div class="item" id="_10">
+		<h1>Self Balancing Robotic Platform</h1>
+		<p> A remote controlled robotic frame that ballances itself on 2</p>
+	</div>
+	<div class="item" id="_11">
+		<h1>Mini Sumo Robot</h1>
+		<p> An autonomous battle bot - mini sumo cathegory</p>
+	</div>
+	<div class="item" id="_12">
+		<h1>Puck Collect Bot</h1>
+		<p> An autonomous puc collecting robot</p>
+	</div>
+  <div class="item" id="_13"><h1 class="title">NASA</h1>
+		<a href="http://www.aeronautics.nasa.gov/competition_winners.htm" class="linkNicon" style="font-size:20px"><i>1st place, Fundamental Aeronautics Program Student Contest, international teams section - click for competition page</i></a>
+		<br>
+		<p class="description">Concept supersonic airplane that proposes solutions for Concorde's problems and brings back supersonic air travel</p>
+	</div>
+</div>
+<!--
+<div class="customNavigation">
+  <a class="btn prev">Previous</a>
+  <a class="btn next">Next</a>
+  <a class="btn play">Autoplay</a>
+  <a class="btn stop">Stop</a>
+</div>-->
+<!--
+<h1 class="title">Awards</h1>
+<p style="text-align:left">2nd Place, Line Follower Robot at Robot Challenge, Vienna, Austria</p>
+<p style="text-align:left">Grand Winner Medal, 9th International Informatrix Projects Competition, Bucharest, Romania. Project: Universal Self Balancing Platform</p>
+<p style="text-align:left">Grand Winner Medal, 9th International Informatrix Projects Competition, Bucharest, Romania. Project: Autonomous Mini-Sumo Robot</p>
+<p style="text-align:left">1st Place at Senior Line Follower Contest, International Robotics Trophy Robotor, Orsova, Romania</p>
+<p style="text-align:left">3rd Prize at 7th International ICT Olympiad, Ankara, Turkey. Project: Collection of Flash Educational Games</p>
+<p style="text-align:left">Product of The Year award at Junior Achievement, National Phase Buchares, Romania. Project: Clock Works - vintage clocks made out of vinyl disks with heat induced deformations</p>
+-->
+</body>
 </html>
