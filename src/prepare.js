@@ -5,11 +5,11 @@ var objects = {
 "_4":{year:2014,skills:"Java, Android SDK"},
 "_5":{year:2013,skills:"Lua Script, Corona SDK"},
 "_6":{year:2013,skills:"C/C++"},
-"lctb":{year:2012,skills:"Action Script 3, Adobe Flash"},
+"lctb":{year:2012,skills:"Action Script 3, Adobe Flash",cover:"res/lcbss.png"},
 "_8":{year:2012,skills:"Action Script 3, Adobe Flash",cover:"res/angryHen.png",color:"#CCCCCC"},
 "_9":{year:2012,skills:"Action Script 3, Adobe Flash",cover:"res/galactic.jpg",color:"#000000"},
 "_10":{year:2011,skills:"C, VisualBasic, Arduino"},
-"_11":{year:2011,skills:"C, Arduino",cover:"res/sumo.png"},
+"_11":{year:2011,skills:"C, Arduino",cover:"res/sumo.gif"},
 "_12":{year:2011,skills:"C, Arduino"},
 "_13":{year:2009,cover:"res/jet2.jpg"}
 };
