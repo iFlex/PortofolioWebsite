@@ -1,15 +1,16 @@
 h1,i,a,p { color: white; }
-
+p { font-size: 1.1em;}
 body{
 	background-image:url('res/cardboard.png');
 	background-color: #0f0700;
 }
 
-/*.item{
-	-webkit-box-shadow: 0px 23px 30px -15px rgba(0,0,0,0.75);
+.item{
+	/*-webkit-box-shadow: 0px 23px 30px -15px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 23px 30px -15px rgba(0,0,0,0.75);
-box-shadow: 0px 23px 30px -15px rgba(0,0,0,0.75);
-}*/
+box-shadow: 0px 23px 30px -15px rgba(0,0,0,0.75);*/
+	padding-bottom: 20px;
+}
 
 .intro p {
 	width: 95%;

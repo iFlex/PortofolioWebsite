@@ -7,7 +7,7 @@ var objects = {
 "_6":{year:2013,skills:"C/C++"},
 "lctb":{year:2012,skills:"Action Script 3, Adobe Flash",cover:"res/lcbss.png"},
 "_8":{year:2012,skills:"Action Script 3, Adobe Flash",cover:"res/angryHen.png",color:"#CCCCCC"},
-"_9":{year:2012,skills:"Action Script 3, Adobe Flash",cover:"res/galactic.jpg",color:"#000000"},
+"_9":{year:2012,skills:"Action Script 3, Adobe Flash",cover:"res/galactic.png",color:"#000000"},
 "_10":{year:2011,skills:"C, VisualBasic, Arduino"},
 "_11":{year:2011,skills:"C, Arduino",cover:"res/sumo.gif"},
 "_12":{year:2011,skills:"C, Arduino"},
@@ -62,15 +62,23 @@ function init(){
 }
 
 function setHeight(){
-  var header = document.getElementById("y0");
-  var height = ($(window).height() - header.clientHeight)*0.8;
+  var maxH = 0;
   for( key in objects){
     try {
       obj = document.getElementById(key);
-      obj.style.height = height+"px";
+      if( maxH < obj.clientHeight )
+        maxH = obj.clientHeight;
     } catch(e){
       console.log("Could not customize:");
       console.log(objects[i]);
+    }
+  }
+
+  for( key in objects){
+    try {
+      obj = document.getElementById(key);
+      obj.style.height = maxH+"px";
+    } catch(e){
     }
   }
 }
