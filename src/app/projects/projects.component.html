@@ -1,0 +1,16 @@
+<h1>Here is a chronological list of projects I have worked on.</h1>
+
+<div class="card" *ngFor="let project of projects" style="background:{{project.colour}}">
+  <div class="card-logo-container">
+    <img class="card-logo" align="middle" src="{{project.icon}}"/>
+  </div>
+  <div class="card-talko">
+    <h3>{{project.name}}</h3>
+    <p>{{project.description}}</p>
+  </div>
+  <div class="card-tail">
+    <b style="float:right;font-size:14px">{{project.year}}</b>
+    <br/>
+    <i style="font-size:11px" *ngFor="let technology of project.tech">{{technology}}<br/></i>
+  </div>
+</div>

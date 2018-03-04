@@ -1,0 +1,124 @@
+[
+  {
+    "name":"Nobel API",
+    "description":"A JavaScript based application written for the Nobel Media Foundation to implement a database query API. This solution models the database as a graph where the tables are nodes and the relations between them are vertices. The user simply selects a group of fields and sets constraints on these fields - the application finds a path that connects all the selected properties and generates a SQL query that retrieves the required data.",
+    "year":2017,
+    "icon":"assets/icons/nobel.png",
+    "tech":["JavaScript","NodeJS","MySQL"],
+    "colour":"#304fa2"
+  },
+  {
+    "name":"Sociable Javascript",
+    "description":"This was my dissertation project: the aim was to model JavaScript isolates (application/script instances) as members of a society and making use of Social Welfare theory to better manage their memory usage. This approach managed to keep the memory usage from exceeding double the minimum heap size.",
+    "year":2016,
+    "icon":"assets/icons/js.png",
+    "tech":["JavaScript","C++","Python"],
+    "colour":"#304fa2"
+  },
+  {
+    "name":"NGPS",
+    "description":"A pure JavaScript presentation platform that relies on spatial mapping to convey ideas. It is built as a platform that allows extensions to be plugged in adding more functionality.",
+    "year":2016,
+    "icon":"assets/icons/ngps.png",
+    "tech":["JavaScript","HTML","CSS"],
+    "colour":"#304fa2"
+  },
+  {
+    "name":"Best AWS Hack",
+    "description":"Earned the Best AWS Hack Award at JacobsHack Hackathon, organised at Jacobs University in Bremen, Germany.",
+    "year":2016,
+    "icon":"assets/icons/jacobshk.png",
+    "tech":["JavaScript","NodeJS","MySQL"],
+    "colour":"#304fa2"
+  },
+  {
+    "name":"Astero Jump",
+    "description":"A physics based space explorer iOS and Android game.",
+    "year":2013,
+    "icon":"assets/icons/asterojmp.png",
+    "tech":["Lua Script","Corona SDK"],
+    "colour":"#304fa2"
+  },
+  {
+    "name":"CoClip",
+    "description":"Command line application for sharing files with users on the same LAN. Capable to detect active users on LAN and stream files at speeds up to 10 MB/s (Speed limitation due ot synchronous I/O)",
+    "year":2013,
+    "icon":"assets/icons/code.png",
+    "tech":["C/C++"],
+    "colour":"#304fa2"
+  },
+  {
+    "name":"Logic Circuit Testing Board",
+    "year":2012,
+    "description":"A logic gate simulator made in Action Script for web embedding.",
+    "icon":"assets/icons/lcbss.png",
+    "tech":["ActionScript", "Adobe Flash"],
+    "colour":"#304fa2"
+  },
+  {
+    "name":"Angry Hen",
+    "year":2012,
+    "description":"A 10 level iOS game where the player has to keep an increasing number of eggs from colliding with each other. Each level adds new game mechanics that jeopardise one ore more eggs.",
+    "icon":"assets/icons/angryHen.png",
+    "tech":["ActionScript","Adobe Flash"],
+    "colour":"#304fa2"
+  },
+  {
+    "name":"Gallactic Kidnappers",
+    "year":2012,
+    "description":"A survival based on iOS game where the player needs to tap on eggs to save them from being abducted by an alien ship.",
+    "icon":"assets/icons/galactic.png",
+    "tech":["ActionScript", "Adobe Flash"],
+    "colour":"#304fa2"
+  },
+  {
+    "name":"Balance Bot",
+    "year":2011,
+    "description":"A remote controlled robotic frame that balances itself on 2 wheels using a PID algorithm.",
+    "awards":"1st Place at Infomatrix International Hardware Projects Competition",
+    "icon":"assets/icons/sumo.gif",
+    "video":"https://youtu.be/IFzUUf76b-M?t=34",
+    "tech":["VisualBasic","C/C++","Arduino"],
+    "colour":"#304fa2"
+  },
+  {
+    "name":"Sumo Bot",
+    "year":2011,
+    "description":"An autonomous battle bot - mini sumo cathegory. This robot is placed in a ring arena along an opposing robot, its task is to push the other outside the ring.",
+    "icon":"assets/icons/sumo.gif",
+    "tech":["C/C++","Arduino"],
+    "colour":"#304fa2"
+  },
+  {
+    "name":"Puck Collect Bot",
+    "year":2011,
+    "description":"An autonomous robot designed to collect pucks of a certain colour. The colour is decided by the base where the robot starts. Its task is to collect as many pucks of the designated colour as possible and bring them back to base.",
+    "icon":"assets/icons/sumo.gif",
+    "tech":["JavaScript","C++","Python"],
+    "colour":"#304fa2"
+  },
+  {
+    "name":"Mouse Commander",
+    "year":2010,
+    "description":"A command line application that allows the user to lock/invert/preset mouse movements. This was one of my first programs using windows system functions made out of curiosity and for fun.",
+    "icon":"assets/icons/genericproject.png",
+    "tech":["C/C++"],
+    "colour":"#304fa2"
+  },
+  {
+    "name":"Nasa Aeronautics Competition",
+    "year":2009,
+    "description":"1st place, Fundamental Aeronautics Program Student Contest, international teams section. A concept airplane that proposes solutions for Concorde's problems and brings back supersonic air travel.",
+    "icon":"assets/icons/plane.png",
+    "tech":[],
+    "colour":"#304fa2"
+  },
+  {
+    "name":"Solution",
+    "year":2008,
+    "description":"A command line application meant for educational use that solves sequences of mathematical operations on literal values without using the Polish notation approach. Each step of the calculation is displayed until the final value is reached.",
+    "icon":"assets/icons/genericproject.png",
+    "tech":["C/C++"],
+    "colour":"#304fa2"
+  }
+]
